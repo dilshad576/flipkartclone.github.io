@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --main-bg-color:#2874f0;
+}
+footer{font-family: 'Lato', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 12vh;
+    color: white;
+    background-color: var(--main-bg-color)
+}
+header{
+    font-family: 'Ubuntu', sans-serif;
+        
+        background: var(--main-bg-color)
+        
+    }
+    nav{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        width: 88px;
+        padding: 0 25px;
+    }
+    nav ul{
+        height: 58px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    nav ul li{
+        list-style: none;
+        padding:  0 23px;
+      
+    }
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input {
+    width: 30vw;
+    height: 23px;
+    border-radius: 4px;
+    margin: 0px 16px 0px 56px;
+    padding:0px 5px ;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin:  32px auto;
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15px;
+}
+
+.my-1{
+    margin: 5px 39px;
+}
+
+.my-2 {
+    margin: 26px -2px;
+}
+.right {
+    color: rgb(62, 122, 175);
+    
+    height: 35px;
+    width: 106px;
+    position: absolute;
+    top: 5px;
+    left: 1299px;
+    margin: 11px;
+}
+.btn1 {
+    width: 73px;
+    border: 3px solid #cbb1b1;
+    border-radius: 7px 8px;
+    height: 25px;
+    cursor: pointer;
+}
+li:active{
+    background-color: linear-gradient(red,aqua);
+}
